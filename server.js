@@ -104,4 +104,4 @@ app.use(route.get('/profile', async ctx => {
   await ctx.render('profile', { user: ctx.req.user })
 }))
 
-app.listen(3000)
+app.listen(process.env.PORT || 3000)
