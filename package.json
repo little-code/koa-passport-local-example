@@ -11,6 +11,9 @@
   "scripts": {
     "start": "node server.js"
   },
+  "engines": {
+    "node": "10.x"
+  },
   "author": "vagusX",
   "license": "MIT",
   "homepage": "https://github.com/little-code/koa-passport-local-example",
